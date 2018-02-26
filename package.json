@@ -1,0 +1,15 @@
+{
+  "name": "htmllessons",
+  "version": "1.0.0",
+  "description": "olga html lessons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olga Andrienko",
+  "license": "ISC",
+  "dependencies": {
+    "lightslider": "^1.1.6",
+    "owl.carousel": "^2.2.0"
+  }
+}
