@@ -288,7 +288,7 @@ section {
   color: #000;
 }
 @media (max-width: 780px) {
-  .menu {
+  .mymenu {
     grid-template-columns: 1fr;
     grid-gap: 15px;
     background-color: transparent;
