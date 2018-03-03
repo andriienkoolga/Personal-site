@@ -17,15 +17,15 @@ header {
    
 }
 
-.link {
-    text-decoration: none;
-    color: #000;
+.mylink {
+    text-decoration: none !important;
+    color: #000 !important;
     font-size: 10px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 
-.menu {
+.mymenu {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-position: center;
@@ -39,7 +39,8 @@ header {
     background-color:  @white;
 }
 
-.button {
+.mybutton {
+  
     border-radius: 20px;
     background-color: @mainColor;
     cursor: pointer;
@@ -53,7 +54,7 @@ header {
     color: black;
 }
 
-.button:hover {
+.mybutton:hover {
     background-color: white;
 }
 
@@ -101,7 +102,7 @@ header {
     background-color: @white;
 }
 
-.headborder>button {
+.demobutton {
     background-color: @mainColor;
     color: #000;
     border-radius: 20px;
@@ -112,7 +113,7 @@ header {
     letter-spacing: 3px;
 }
 
-.headborder>button:hover {
+.demobutton:hover {
     background-color: white;
 }
 
@@ -303,6 +304,7 @@ section {
 
 .socialbtn:hover {
     background-color: white;
+    color: black;
 }
 
 .follow .icons {

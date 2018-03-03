@@ -8,14 +8,14 @@ header {
   background-position: center;
   background-size: cover;
 }
-.link {
-  text-decoration: none;
-  color: #000;
+.mylink {
+  text-decoration: none !important;
+  color: #000 !important;
   font-size: 10px;
   letter-spacing: 5px;
   text-transform: uppercase;
 }
-.menu {
+.mymenu {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   background-position: center;
@@ -28,7 +28,7 @@ header {
   min-height: 60px;
   background-color: #ffffff;
 }
-.button {
+.mybutton {
   border-radius: 20px;
   background-color: #f8a8a8;
   cursor: pointer;
@@ -41,7 +41,7 @@ header {
   align-self: center;
   color: black;
 }
-.button:hover {
+.mybutton:hover {
   background-color: white;
 }
 .search {
@@ -82,7 +82,7 @@ header {
   background-repeat: no-repeat;
   background-color: #ffffff;
 }
-.headborder > button {
+.demobutton {
   background-color: #f8a8a8;
   color: #000;
   border-radius: 20px;
@@ -92,7 +92,7 @@ header {
   padding: 10px;
   letter-spacing: 3px;
 }
-.headborder > button:hover {
+.demobutton:hover {
   background-color: white;
 }
 main {
@@ -250,6 +250,7 @@ section {
 }
 .socialbtn:hover {
   background-color: white;
+  color: black;
 }
 .follow .icons {
   margin-top: 15px;
