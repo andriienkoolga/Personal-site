@@ -81,6 +81,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ffffff;
+  font-family: 'Lora Regular';
 }
 .demobutton {
   background-color: #f8a8a8;
@@ -99,6 +100,8 @@ main {
   max-width: 100%;
 }
 .site {
+  font-family: 'Lora Regular';
+  font-size: 20px;
   margin: 100px 200px;
 }
 section {
@@ -173,13 +176,14 @@ section {
   padding: 40px;
   background-color: #e7e0e0;
   border-radius: 20px;
+  font-family: 'Lora Regular';
 }
 .info > h2 {
   text-align: center;
 }
 .info > p {
   color: #000;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 #olga {
@@ -199,6 +203,8 @@ section {
 .box {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  font-family: 'Lora Regular';
+  font-size: 18px;
 }
 .box .box1 {
   justify-self: center;
@@ -211,6 +217,8 @@ section {
   margin: auto;
 }
 .moments {
+  font-family: 'Lora Regular';
+  font-size: 20px;
   margin: 100px 200px;
 }
 .contact {
